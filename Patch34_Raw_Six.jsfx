@@ -1,9 +1,16 @@
 desc:Raw Six
-// Patch34
+// @version 1.0.0
+// @author Aleksei Vorobev / Patch34
+// @link
+//   GitHub repository https://github.com/patch-34/raw-six
+// @about
+//   Six-voice JSFX generator with an output-recording track template.
+// @provides
+//   [tracktpl] Raw_Six_Track_Template.resource > Patch34_Raw_Six.RTrackTemplate
+//
 // Raw Six
 // Six-voice signal generator for minimal sound design — waveform, frequency, volume per voice.
 //
-// https://github.com/patch-34
 
 ///////////////////////////////////////////////////////////////
 // GLOBAL
