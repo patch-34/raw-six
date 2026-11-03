@@ -1,4 +1,7 @@
-# Patch34: Raw Six
+# Raw Six
+
+**English** · [Русский](README_RU.md)
+
 Six-voice JSFX signal generator for REAPER
 
 ## Overview
@@ -60,6 +63,12 @@ Use the included track template.
 It already has Record: output enabled.
 
 ## Installation
+
+### ReaPack
+
+Import the [Patch34 ReaPack catalog](https://raw.githubusercontent.com/patch-34/patch34-reapack/main/index.xml) using **Extensions → ReaPack → Import repositories…**, then locate **Raw Six** under **Browse packages**. Installation also provides the track template.
+
+### Manual installation
 Copy `Patch34_Raw_Six.jsfx` to:
 
 macOS  
@@ -70,6 +79,8 @@ Windows
 
 Linux  
 ~/.config/REAPER/Effects/
+
+To install the optional track template manually, copy `Patch34_Raw_Six.RTrackTemplate` into `TrackTemplates` in the REAPER resource directory.
 
 Then rescan JSFX in:
 Options → Preferences → Plug-ins → ReaScript / JS → Re-scan
@@ -84,5 +95,8 @@ JS: Raw Six
 4. Record audio.
 5. Adjust and repeat.
 
-## License
-MIT
+## License and credits
+
+Distributed under the [MIT License](LICENSE).
+
+Author: [Aleksei Vorobev / Patch34](https://github.com/patch-34).
